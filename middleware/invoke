@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/usr/bin/invoke_app "$@" -C "start_jupyter -A -T @tool PhysiCell_NLC-GUI.ipynb" -t iu199sp08p137 -u anaconda-6
